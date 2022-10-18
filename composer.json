@@ -1,0 +1,54 @@
+{
+    "name": "aplus/one",
+    "description": "Aplus Framework One Project",
+    "license": "MIT",
+    "type": "project",
+    "keywords": [
+        "one",
+        "micro",
+        "microservice"
+    ],
+    "homepage": "https://aplus-framework.com/packages/one",
+    "support": {
+        "email": "support@aplus-framework.com",
+        "issues": "https://gitlab.com/aplus-framework/projects/one/issues",
+        "forum": "https://aplus-framework.com/forum",
+        "source": "https://gitlab.com/aplus-framework/projects/one",
+        "docs": "https://docs.aplus-framework.com/guides/projects/one/"
+    },
+    "funding": [
+        {
+            "type": "Aplus Sponsor",
+            "url": "https://aplus-framework.com/sponsor"
+        }
+    ],
+    "require": {
+        "php": ">=8.1",
+        "aplus/framework": "dev-master"
+    },
+    "require-dev": {
+        "ext-xdebug": "*",
+        "aplus/coding-standard": "^1.12",
+        "ergebnis/composer-normalize": "^2.25",
+        "jetbrains/phpstorm-attributes": "^1.0",
+        "natanfelles/php-server": "^2.11",
+        "phpmd/phpmd": "^2.12",
+        "phpstan/phpstan": "^1.5",
+        "phpunit/phpunit": "^9.5"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\One\\": "tests/"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "ergebnis/composer-normalize": true
+        },
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
+    }
+}
