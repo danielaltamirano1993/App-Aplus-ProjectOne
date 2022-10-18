@@ -1,17 +1,11 @@
-# Libraries
-*.lvlibp
-*.llb
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-
-# Metadata
-*.aliases
-*.lvlps
-.cache/
+.idea/
+.vscode/
+build/
+raw-tests/
+vendor/
+.php-cs-fixer.cache
+.phpunit.result.cache
+composer.lock
+composer.phar
+phpstan.neon
+phpunit.xml
